@@ -8,5 +8,5 @@
 import { defineAsyncComponent } from 'vue';
 
 // Dynamically import the HelloWorld component
-const helloworld = defineAsyncComponent(() => import('./components/HelloWorld.vue'));
+const helloworld = defineAsyncComponent(() => import('./components/list.vue'));
 </script>
